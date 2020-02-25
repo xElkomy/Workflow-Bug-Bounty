@@ -11,3 +11,7 @@ git clone https://github.com/xElkomy/my-tools
 
 The Fuzz-xElkomy Tool is Tool for Fuzzing About Custom directory With if Condition 
 
+How Work >>
+
+>>[Example]: python3 Fuzz-xElkomy.py targets.txt /wp-json/wp/v2/users '[{"id"'
+
