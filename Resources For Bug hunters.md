@@ -34,7 +34,7 @@ Directory brute force or fuzzing with my tool Fuzz-xElkomy and dirb and fuff go 
 
 In manual Checking I searching in Google Dorks, Shodan, github 
 
-and I used Tool lazys3 for recon public s3 buckets
+and I am using Tools like lazys3 for recon public s3 buckets
 
 Manually explore the site
 
@@ -60,45 +60,69 @@ In CSRF firs I check source code second check response the server after change a
 
 Check in APIs or websites dashboards or sensitive data Improper access control
 
-## Some PoCs
+## Some PoCs:-
+
 https://drive.google.com/drive/folders/14zlqgin6rUfr6jQRBCLbbP8P8Vdypz7x
 
   ### XSS :-
   
    https://www.youtube.com/watch?v=9g2ySpae10o
+   
    https://www.youtube.com/watch?v=yxvBFF1c47w
+   
    https://www.youtube.com/watch?v=aVIMIZeYVAQ
+   
    https://www.youtube.com/watch?v=tri0RSMxt3g
+   
    https://www.youtube.com/watch?v=NS8ml3ZShpU
+   
    https://www.youtube.com/watch?v=KajedxDLq20
+   
    https://www.youtube.com/watch?v=UYjufoB5Vpw
+   
    https://www.youtube.com/watch?v=WC5kUPwzUtk
+   
   
   ### Open Redirect :-
    https://www.youtube.com/watch?v=d5TEPQx5BWA
+   
    https://www.youtube.com/watch?v=Xli9Yx9tzCI
+   
    https://www.youtube.com/watch?v=YLMziP_e9k4
+   
    
    
   ### SSRF :-
    https://www.youtube.com/watch?v=WiJfG4Ch8p8
+   
    https://www.youtube.com/watch?v=aRB-uYLp-ho
+   
    https://www.youtube.com/watch?v=w94gTHoRXk8
+   
    https://www.youtube.com/watch?v=Fi32ZkFofpU
+   
    https://www.youtube.com/watch?v=RsK-uWLM0IE
    
   ### IDOR :-
    https://www.youtube.com/watch?v=P9_ghgq2xVk
+   
    https://www.youtube.com/watch?v=ABoFN_23Efw
+   
    https://www.youtube.com/watch?v=blHG6D7Dd0M
+   
    https://www.youtube.com/watch?v=Y846r0s_VEI
+   
    https://www.youtube.com/watch?v=rcfEq6NUF7E&t=22s
    
   ### CSRF :-
    https://www.youtube.com/watch?v=8TZJiU1FqeY
+   
    https://www.youtube.com/watch?v=dBTuWzX8hd0
+   
    https://www.youtube.com/watch?v=U1qdxHsLJHE
+   
    https://www.youtube.com/watch?v=3T4m9tjXSeU
+   
    https://www.youtube.com/watch?v=7jDCqitzL34
    
    
