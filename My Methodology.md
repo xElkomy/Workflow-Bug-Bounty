@@ -2,7 +2,7 @@
 
 My Checklist Or My Methodology in bug bounty.
 
-Recon on Subdomains Gathering :-
+## Recon on Subdomains Gathering :-
 
 Tool>
 
@@ -18,7 +18,7 @@ Different choice - I used Rekon bash_script tools
 
 Sublist3r - Not bad also
 
-Scanning single domain:-
+## Scanning single domain:-
 
 Tool>
 
@@ -30,7 +30,7 @@ Waybackmachine - hakrawler or tool tomnomnom Waybackmachine
 
 Directory brute force or fuzzing with my tool Fuzz-xElkomy and dirb and fuff go tool
 
-Manual Checking:-
+## Manual Checking:-
 
 In manual Checking I searching in Google Dorks, Shodan, github 
 
@@ -50,7 +50,7 @@ Check Version for any CMS or anything at the website or this domain
 
 Trying bypass the authentication Or bypass the 
 
-Exploit Vulnerabilities:-
+## Exploit Vulnerabilities:-
 
 In XSS exploit or recon I used XSStrike , XSpear , KNOXSS
 
