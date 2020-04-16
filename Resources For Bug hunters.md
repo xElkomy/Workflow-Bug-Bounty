@@ -81,6 +81,8 @@ Check in APIs or websites dashboards or sensitive data Improper access control
 -   https://www.youtube.com/watch?v=UYjufoB5Vpw
    
 -   https://www.youtube.com/watch?v=WC5kUPwzUtk
+
+-   https://blog.rakeshmane.com/2020/04/jsp-contextpath-link-manipulation-xss.html
    
   
   ### Open Redirect :-
