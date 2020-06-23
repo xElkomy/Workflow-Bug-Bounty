@@ -66,6 +66,9 @@ Install gem ruby first and second install aqutone
 
 `gem install aquatone`
 
+# Run EnumX:-
+
+### [ EXAMPLE ] - `bash EumX.sh hackerone.com`
 
 I hope this tools be helpful for you.
 
