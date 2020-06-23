@@ -57,8 +57,15 @@ and move it to ~/tools/ Or you can Edit this tool for you want.
 
 `go get -u -v github.com/lukasikic/subzy`
 
+### 6-Install get-title:-
 
-### 6-Install Aquaton:-
+`git clone https://github.com/tomnomnom/hacks`
+
+`cd hacks/get-titles/ | go build`
+
+Then `cp get-titles /usr/bin`
+
+### 7-Install Aquaton:-
 
 Install gem ruby first and second install aqutone
 
@@ -72,4 +79,16 @@ Install gem ruby first and second install aqutone
 
 I hope this tools be helpful for you.
 
-# xElkomy
+
+
+### Thanks:-
+
+1-[tomnomnom](https://github.com/tomnomnom/)
+
+2-[Lukasikic](https://github.com/lukasikic)
+
+3-[aboul3la](https://github.com/aboul3la)
+
+4-[haccer](https://github.com/haccer/)
+
+And me :)
