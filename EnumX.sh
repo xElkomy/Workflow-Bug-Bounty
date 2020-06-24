@@ -20,7 +20,7 @@ python ~/tools/Sublist3r/sublist3r.py -d $1 -o sublist3r.txt
 
 #Filtering
 echo -e "${GREEN}[+] Starting Filtering"
-cat sublist3r.txt assetfinder.txt | sort -u |uniq -u| grep -v "*" |sort -u|tee Final-Subs.txt
+cat sublist3r.txt assetfinder.txt |grep -v "*" |sort -u |tee Final-Subs.txt
 
 #Httprobe
 echo -e "${GREEN}[+] Starting Httprobe"
