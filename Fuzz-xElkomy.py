@@ -35,6 +35,7 @@ proxies = {
   "http": "http://127.0.0.1:8080",
   "https": "http://127.0.0.1:8080",
 }
+
 directory = sys.argv[2]
 ifing = sys.argv[3]
 user_agent = {"User-Agent":'Mozilla/5.0 (Windows NT 10.0; Win64; x64).xElkomy AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 '}
@@ -67,6 +68,3 @@ if goo() == 'main':
     goo()
     print('''\t-------------xElkomy-------------
 \tBye :(''')
-
-
-
