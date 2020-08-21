@@ -45,17 +45,17 @@ def get_url(url):
     try:
         wcheck = requests.get(url + directory,headers=user_agent,timeout=15)
         if ifing in wcheck.text:
-            print("[ " + url + directory +" ] ===> [+] Success Catch!!! ")
+            print("==>  " + url + directory +"  ")
     except:
         pass
 
 def goo():
     try:
         start = timer()
-        pp = Pool(10)
+        pp = Pool(10) #Threads
         pr = pp.map(get_url, ooo)
         print('Time: ' + str(timer() - start) + ' seconds')
-    except:
+    except IOError:
         pass
 
 
