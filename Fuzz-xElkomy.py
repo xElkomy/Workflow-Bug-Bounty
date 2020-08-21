@@ -15,7 +15,7 @@ def logo():
 \t #   #  #       #       #   #   #     # #     #    #
 \t#     # ####### ####### #    #  ####### #     #    #
 \t ##########__Khaled Mohamed__######### GitHub:@xElkomy
-\t [Example]: python3 Fast-ffuzz.py target.txt DIR if-you-want-check ..!
+\t [Example]: python3 Fuzz-xElkomy.py target.txt DIR if-you-want-check ..!
 ''')
 	print(banner)
 	time.sleep(1)
@@ -43,7 +43,7 @@ except IOError:
 
 def get_url(url):
     try:
-        wcheck = requests.get(url + directory,headers=user_agent,timeout=15)
+        wcheck = requests.get(url + directory,headers=user_agent,timeout=15,verify=False, allow_redirects=False)
         if ifing in wcheck.text:
             print("==>  " + url + directory +"  ")
     except:
