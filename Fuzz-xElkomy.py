@@ -59,7 +59,8 @@ def goo():
         print('Time: ' + str(timer() - start) + ' seconds')
     except IOError:
         pass
-
+    except multiprocessing.TimeoutError:
+        pool.terminate()
 
 if goo() == 'main':
     goo()
