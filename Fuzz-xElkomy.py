@@ -57,10 +57,8 @@ def goo():
         pp = Pool(30) #Threads
         pr = pp.map(get_url, ooo)
         print('Time: ' + str(timer() - start) + ' seconds')
-    except IOError:
+    except:
         pass
-    except multiprocessing.TimeoutError:
-        pool.terminate()
 
 if goo() == 'main':
     goo()
