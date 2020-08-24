@@ -45,7 +45,7 @@ except IOError:
 
 def get_url(url):
     try:
-        wcheck = requests.get(url + directory,headers=user_agent,timeout=1)
+        wcheck = requests.get(url + directory,headers=user_agent,timeout=3)
         if ifing in wcheck.text:
             print("==>  " + url + directory +"\n  ")
     except:
