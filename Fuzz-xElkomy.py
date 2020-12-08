@@ -47,7 +47,7 @@ def get_url(url):
     try:
         wcheck = requests.get(url + directory,headers=user_agent,timeout=3)
         if ifing in wcheck.text:
-            print("==>  " + url + directory +"\n  ")
+            print("\n" + url + directory +"\n")
     except:
         pass
 
