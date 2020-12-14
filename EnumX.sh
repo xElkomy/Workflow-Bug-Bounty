@@ -1,5 +1,7 @@
 #!/bin/bash
 
+[ -z "$1" ] && { printf "[!] Usage: ./EnumX.sh example.com\n"; exit; }
+
 #xElkomy - Khaled Mohamed
 
 #COLORS
