@@ -1,0 +1,103 @@
+name: Contributors List
+description: Automate generate 'contributors.svg' for your repository.
+author: bubkoo <bubkoo.wy@gmail.com>
+inputs:
+  GITHUB_TOKEN:
+    description: Your GitHub token for authentication.
+    required: true
+
+  repo:
+    description: The repository name in form of "userName/repoName".
+    required: false
+
+  sort:
+    description: Specify if sort contributors by contributions or not. Default `true`.
+    required: false
+    default: true
+
+  count:
+    description: Specify the max count of contributors listed. Default list all contributors.
+    required: false
+
+  round:
+    description: Specify if clip the avatar to rounded or not. Default `true`.
+    required: false
+    default: true
+
+  truncate:
+    description: Truncate username by specified length, `0` for no truncate.
+    required: false
+    default: 12
+
+  affiliation:
+    description: 'Type of collaborators options: all/direct/outside.'
+    required: false
+    default: direct
+
+  includeBots:
+    description: Should include bots or not.
+    required: false
+    default: false
+
+  excludeUsers:
+    description: Users to exclude.
+    required: false
+
+  svgPath:
+    description: Path to save the generated SVG.
+    required: false
+    default: CONTRIBUTORS.svg
+
+  svgWidth:
+    description: Width of the generated SVG.
+    required: false
+    default: 740
+
+  avatarSize:
+    description: Size of user avatar.
+    required: false
+    default: 64
+
+  avatarMargin:
+    description: Margin of user avatar.
+    required: false
+    default: 5
+
+  userNameHeight:
+    description: Height of user name.
+    required: false
+    default: 0
+
+  svgTemplate:
+    description: Template to render SVG.
+    required: false
+    default: >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+        width="{{ width }}"
+        height="{{ contributorsHeight }}"
+      >
+        <style>.contributor-link { cursor: pointer; }</style>
+        {{{ contributors }}}
+      </svg>
+  itemTemplate:
+    description: Template to render user item.
+    required: false
+    default: >
+      <a xlink:href="{{{ url }}}" class="contributor-link" target="_blank" rel="nofollow sponsored" title="{{{ name }}}" id="{{{ name }}}">
+        <image x="{{ x }}" y="{{ y }}" width="{{ width }}" height="{{ height }}" xlink:href="{{{ avatar }}}" />
+      </a>
+  commitMessage:
+    description: Commit message of the github action.
+    required: false
+    default: 'chore: update contributors [skip ci]'
+
+runs:
+  using: node12
+  main: dist/index.js
+
+branding:
+  icon: heart
+  color: orange
