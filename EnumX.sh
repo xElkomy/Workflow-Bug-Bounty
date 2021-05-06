@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[ -z "$1" ] && { printf "\n[!] Usage: xelkomy example.com\n"; exit; }
+[ -z "$1" ] && { printf "\n[!] Usage: bash EnumX.sh example.com\n"; exit; }
 
 #COLORS
 BOLD="\e[1m"
