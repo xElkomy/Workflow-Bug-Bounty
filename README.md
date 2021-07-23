@@ -21,7 +21,7 @@ How Work >>
 
 ## EnumX.sh
 
-This in my tool for Reconnaissses is very good for the bug hunters.
+This in my سكربت for Reconnaissses is very good for the bug hunters.
 
 you can install it by :-
 
