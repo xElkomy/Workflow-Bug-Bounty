@@ -1,0 +1,17 @@
+id: wayback-ssrf-scan
+
+info:
+  name: Wayback SSRF Scan
+  author: xElkomy
+  severity: high
+  description: Search for SSRF by use wayback machine.
+  tags: xelkomy
+requests:
+  - method: GET
+    path:
+      - '{{BaseURL}}'
+    matchers:
+      - type: word
+        part: interactsh_protocol
+        words:
+          - "http"
