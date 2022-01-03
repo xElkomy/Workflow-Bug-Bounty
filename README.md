@@ -1,5 +1,9 @@
 السلام عليكم ورحمة الله وبركاتة
 
+You can Support me by register or use digitalocean
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg)](https://www.digitalocean.com/?refcode=6a8611b3cc74&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
+
 # my-tools
 My Tools For Bug Bounty
 
