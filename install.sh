@@ -43,7 +43,7 @@ select choice in "${choices[@]}"; do
                 yes)
 
 					echo "Installing Golang"
-					wget https://golang.org/dl/go1.15.linux-amd64.tar.gz
+					wget https://go.dev/dl/go1.17.6.linux-amd64.tar.gz
 					sudo tar -xvf go1.15.linux-amd64.tar.gz
 					sudo mv go /usr/local
 					export GOROOT=/usr/local/go
@@ -79,7 +79,7 @@ cd ~/tools/
 
 #Install shuffledns
 echo -e "Installing shuffledns"
-go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns
+go install github.com/projectdiscovery/shuffledns/cmd/shuffledns@latest
 echo -e "Done install shuffledns"
 
 #install censys-subdomain-finder
@@ -93,7 +93,7 @@ echo -e "Done install censys-subdomain-finder"
 #install subfinder
 echo -e "Installing subfinder"
 cd ~/tools/
-go get -v github.com/projectdiscovery/subfinder/cmd/subfinder
+go install github.com/projectdiscovery/subfinder/cmd/subfinder@latest
 echo -e "Done install subfinder"
 
 #Install findomain
@@ -126,31 +126,31 @@ echo -e "Done Install ctfr"
 #TitleXtractor
 cd ~/tools/
 echo -e "Installing TitleXtractor"
-go get -u github.com/dellalibera/titlextractor/
+go install github.com/dellalibera/titlextractor@latest
 echo -e "Done Install TitleXtractor"
 
 #Subdomain Takeover Scan via subzy
 cd ~/tools/
 echo -e "Installing Subzy"
-go get -u -v github.com/lukasikic/subzy
+go install github.com/lukasikic/subzy@latest
 echo -e "Done Install Subzy"
 
 #dnsprobe
 echo -e "Installing dnsprobe"
 cd ~/tools/
-go get -u -v github.com/projectdiscovery/dnsprobe
+go install github.com/projectdiscovery/dnsprobe@latest
 echo -e "Done Install dnsprobe"
 
 #nuclei
 echo -e "Installing nuclei"
 cd ~/tools/
-go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 echo -e "Done Install nuclei"
 
 #cookieless
 echo -e "Installing cookieless"
 cd ~/tools/
-go get -u github.com/RealLinkers/cookieless
+go install github.com/RealLinkers/cookieless@latest
 echo -e "Done Install cookieless"
 
 #XSStrike
@@ -163,27 +163,22 @@ echo -e "Done Install XSStrike"
 
 echo -e "Installing hakrawler"
 cd ~/tools/
-go get github.com/hakluke/hakrawler
+go install github.com/hakluke/hakrawler@latest
 echo -e "Done Install hakrawler"
 
 echo -e "Installing waybackurls"
 cd ~/tools/
-go get -u github.com/tomnomnom/waybackurls
+go install github.com/tomnomnom/waybackurls@latest
 echo -e "Done Install waybackurls"
-
-echo -e "Installing ssrf-finder"
-cd ~/tools/
-go get -u github.com/random-robbie/ssrf-finder
-echo -e "Done Install ssrf-finder"
 
 echo -e "Installing qsreplace"
 cd ~/tools/
-go get -u github.com/tomnomnom/qsreplace
+go install github.com/tomnomnom/qsreplace@latest
 echo -e "Done Install qsreplace"
 
 echo -e "Installing gau"
 cd ~/tools/
-go get -u -v github.com/lc/gau
+go install -v github.com/lc/gau@latest
 echo -e "Done Install gau"
 
 #CMSmap Vulnerabilities Scanning WordPress, Joomla, Drupal and Moodle
@@ -207,13 +202,13 @@ echo -e "Done Install Workflow-Bug-Bounty xElkomy"
 
 echo -e "Installing KXSS"
 cd ~/tools/
-go get -u github.com/tomnomnom/hacks/kxss
+go install github.com/tomnomnom/hacks/kxss@latest
 echo -e "Done Install KXSS"
 
 #install aquatone
 echo "Installing Aquatone"
 cd ~/tools/
-go get github.com/michenriksen/aquatone
+go install github.com/michenriksen/aquatone@latest
 echo -e "Done Install Aquatone"
 
 #install chromium
@@ -283,13 +278,16 @@ cd ~/tools/
 echo -e "Done install asnlookup"
 
 echo -e "installing httprobe"
-go get -u github.com/tomnomnom/httprobe 
+go install github.com/tomnomnom/httprobe@latest
 echo -e "Done install httprobe"
 
 echo -e "installing unfurl"
-go get -u github.com/tomnomnom/unfurl 
+go install github.com/tomnomnom/unfurl@latest
 echo -e "Done install unfurl"
 
+echo -e "installing Web-Cache-Vulnerability-Scanner"
+go install https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner
+echo -e "Done install Web-Cache-Vulnerability-Scanner"
 
 echo -e "installing crtndstry"
 git clone https://github.com/nahamsec/crtndstry.git
@@ -305,7 +303,7 @@ cd ~/tools/
 echo -e "Done install SecLists"
 
 echo -e "installing httpx"
-go get -u github.com/projectdiscovery/httpx
+go install github.com/projectdiscovery/httpx@latest
 cd ~/tools/
 echo -e "Done install httpx"
 
