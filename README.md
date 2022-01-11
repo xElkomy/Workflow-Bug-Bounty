@@ -35,7 +35,7 @@ and Install the tools we need
 
 ### 1-Install Assetfinder:-
 
-`go get -u github.com/tomnomnom/assetfinder`
+`go install github.com/tomnomnom/assetfinder@latest`
 
 ### 2-Install Sublister:-
 
@@ -45,21 +45,21 @@ and move it to ~/tools/ or you can Edit this tool for you want.
 
 ### 3-Install Httprobe:-
 
-`go get -u github.com/tomnomnom/httprobe`
+`go install github.com/tomnomnom/httprobe@latest`
 
 ### 4-Install Subjack:-
 
-`go get -u github.com/haccer/subjack`
+`go install github.com/haccer/subjack@latest`
 
 and get fingerprint file from this repo:-
 
-`https://github.com/haccer/subjack`
+`https://github.com/haccer/subjack@latest`
 
 and move it to ~/tools/ Or you can Edit this tool for you want.
 
 ### 5-Install Subzy:-
 
-`go get -u -v github.com/lukasikic/subzy`
+`go install github.com/lukasikic/subzy@latest`
 
 ### 6-Install get-title:-
 
