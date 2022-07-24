@@ -93,7 +93,7 @@ echo -e "Done install censys-subdomain-finder"
 #install subfinder
 echo -e "Installing subfinder"
 cd ~/tools/
-go install github.com/projectdiscovery/subfinder/cmd/subfinder@latest
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 echo -e "Done install subfinder"
 
 #Install findomain
